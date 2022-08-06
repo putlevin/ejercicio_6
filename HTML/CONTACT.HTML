@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./../CSS/CONTACT.CSS" />
+  </head>
+  <body>
+    <h4>Contact</h4>
+    <ul>
+      <li><a href="./ABOUT.HTML">About</a></li>
+      <li><a href="./CONTACT.HTML">Contact</a></li>
+      <li><a href="./GALLERY.HTML">Gallery</a></li>
+      <li><a href="./INDEX.HTML">Home</a></li>
+    </ul>
+    <!--Agregar un formulario-->
+    <form>
+      <!--Label e input - label es el texto, input es el cuadrito-->
+      <label>Nombre completo</label>
+      <!--Botones-->
+      <!--Place holder muestra un texto dentro del input, pero se elimina al momento de escribir-->
+      <input
+        type="text"
+        placeholder="Ingresa tu nombre completo"
+        required
+      /><br /><br />
+
+      <label>Telefono:</label>
+      <input
+        type="number"
+        placeholder="Ingresa tu numero telefonico"
+        required
+      /><br /><br />
+
+      <label>Email:</label>
+      <input type="email" placeholder="Ingresa tu email" required /><br /><br />
+
+      <label>Comentario:</label>
+      <!--Textarea para agregar un cuadro de texto cols - Se agregan columnas del cuadro rows-->
+      <textarea
+        cols="30"
+        rows="10"
+        placeholder="Ingresa tu comentario"
+        required
+      ></textarea
+      ><br /><br />
+      <input type="submit" value="Enviar" /><br /><br />
+    </form>
+    <footer>
+      <p>
+        © This page will create by Kevin Diaz with visual studio code program
+      </p>
+    </footer>
+  </body>
+</html>

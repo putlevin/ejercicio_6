@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/*
+Selector(Todas las etiquetas que se utilizan)
+id
+class
+*/
+p{
+    color: rgb(214, 20, 20);
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    background-color: rgb(40, 165, 155);
+}
+/*Manda a llamar a un parrafo en especifico*/
+#Parrafo_1{
+    color: rgb(190, 4, 4);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    background-color: rgb(103, 226, 235);
+}
+.Parrafo_2{
+    color: rgb(219, 55, 55);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:right;
+    background-color: rgb(74, 238, 197);
+}
+#Titulo_1{
+    color: rgb(199, 16, 16);
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align:start;
+    background-color: rgb(123, 213, 224);
+}
+body{
+    background-color: rgba(150, 207, 204, 0.822);
+}
+/*Para acomodar la informacion de manera horizontal se utiliza la propiedad DISPLAY: FLEX y FLEX DIRECCION: ROW*/
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul > li{
+    margin: 5%;
+}

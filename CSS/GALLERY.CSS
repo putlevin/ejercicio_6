@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(150, 207, 204, 0.822);
+}
+/*Para acomodar la informacion de manera horizontal se utiliza la propiedad DISPLAY: FLEX y FLEX DIRECCION: ROW*/
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul > li{
+    margin: 5%;
+}
+h3{
+    color: purple;
+    font-size: 30px;
+}
+img{
+    font-size: medium;
+    margin-left: 15%;
+    width: 50%;
+}
